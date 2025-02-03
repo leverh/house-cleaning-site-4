@@ -298,9 +298,27 @@ header {
     margin-bottom: 2rem;
 }
 
+.insurance-container {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 4rem;
+}
+
 .insurance {
     background: var(--primary-dark);
     padding: 4rem 0;
+}
+
+.insurance-text {
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    font-weight: 500;
+}
+
+.cta-text {
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 /* Contact Form */
